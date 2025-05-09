@@ -6,9 +6,6 @@
           "setup": {
             "nixPkgs": ["go"]
           },
-          "build": {
-            "cmds": ["echo 'no build step needed'"]
-          },
           "start": {
             "cmd": "go run backend/main.go"
           }
